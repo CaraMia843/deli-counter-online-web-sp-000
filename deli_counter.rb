@@ -16,5 +16,5 @@ end
 
 def take_a_number(katz_deli, name)
   if katz_deli.empty? "There is nobody waiting to be served!" : "Currently serving #{katz_deli.first}"
-  katz.deli.shift
+  
 end
