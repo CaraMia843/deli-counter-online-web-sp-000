@@ -15,6 +15,6 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  if katz_deli.empty? "There is nobody waiting to be served!" : "Currently serving #{katz_deli.first}"
+  if katz_deli.empty ? "There is nobody waiting to be served!" : "Currently serving #{katz_deli.first}"
   
 end
