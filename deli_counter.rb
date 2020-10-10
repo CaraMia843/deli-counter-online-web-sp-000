@@ -3,7 +3,7 @@ katz_deli = []
 def line(katz_deli)
   if katz_deli.length >= 1
     new_katz_deli = []
-    counter = 1
+    counter = 0
     katz_deli.each do |name|
       new_katz_deli.push("#{counter + 1}. #{name}")
       counter =+ 1 
